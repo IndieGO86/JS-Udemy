@@ -58,8 +58,8 @@ function detectPersonalLevel(param) {
 // detectPersonalLevel();
 
 function showMyDB(hidden) {
-    if (!hidden) {
-        console.log(personalMovieDB);
+    if     (!hidden) {
+                     console.log(personalMovieDB);
     }
 }
 
