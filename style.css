@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(40, 93, 101);
+}
+
+.UP{
+    display: inline;
+    color: rgb(245, 80, 80);
+}
+.tube {
+    color: rgb(14, 66, 88);
+    background-color: rgb(140, 148, 145);
+    text-shadow: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
