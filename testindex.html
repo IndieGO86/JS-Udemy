@@ -1,15 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tests</title>
-</head>
-<body>
+    <link rel="icon" href="img\favicon-32x32.png" sizes="32x32" />
+  </head>
+  <body>
+    <header>
+      <img src="img\android-chrome-192x192.png" alt="logo" />
+      <nav>
+        <ul>
+          <li><a href="http://">Link1</a></li>
+          <li><a href="http://">link2</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <h1>Hello!</h1>
     <script src="js\script.js"></script>
-    
-</body>
+
+    <main>
+      <aside> 
+        
+        <p>Helolo</p>
+      </aside>
+      <section>
+        <h2>Оставить заявку</h2>
+        <form action="/people">
+          <label> <input type="text" />Your name </label>
+          <br />
+          <label> <input type="text" />Your last name </label>
+          <br />
+          <select multiple name="Lang" id="">
+            <option value="JS">JS</option>
+            <option value="Python">Python</option>
+            <option value="Swift">Swift</option>
+          </select>
+          <button>Send</button>
+        </form>
+      </section>
+      <section>
+        <h2>Читайте также</h2>
+        <article class="article-block">
+          <h3>Услуга 2</h3>
+        </article>
+        <article class="article-block">
+          <h3>Услуга 3</h3>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <section itemscope itemtype=" http://schema.org/Organization">
+        <h1 itemprop="name">Mountainlisfe</h1>
+        <p>Email: <span itemprop="email">info@proud-company.test</span></p>
+      </section>
+    </footer>
+  </body>
 </html>

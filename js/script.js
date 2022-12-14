@@ -856,3 +856,153 @@
 // }
 
 // console.log(menu);
+
+// const family = ['Peter', 'Ann', 'Alex', 'Linda'];
+
+// function showFamily(arr) {
+//      family.forEach(function(names)) {
+//         console.log(`Семья состоит из: ${names}`);
+//      }
+// }
+
+// showFamily();
+
+// const personalPlanPeter = {
+//   name: 'Peter',
+//   age: '29',
+//   skills: {
+//     languages: ['ru', 'eng'],
+//     programmingLangs: {
+//       js: '20%',
+//       php: '10%',
+//     },
+//     exp: '1 month',
+//   },
+//   personalPlanPeter.showAgeAndLangs() {
+
+//   }
+// };
+
+// function showExperience() {
+//   console.log(personalPlanPeter.skills.exp);
+// }
+
+// showExperience();
+
+// function showProgrammingLangs() {
+//   if (personalPlanPeter.skills.programmingLangs === {}) {
+//     console.log('');
+//   } else {
+//     console.log(
+//       `Язык js изучен на ${personalPlanPeter.skills.languages.js}\
+// nЯзык php изучен на ${personalPlanPeter.skills.languages.php}`
+//     );
+//   }
+// }
+
+// showProgrammingLangs();
+
+// let str = 'sum';
+// let strObj = new String(str);
+
+// console.log(typeof(str));
+// console.log(typeof(strObj));
+
+// console.dir([1, 1, 3]);
+
+// const solder = {
+//     health: 400,
+//     armor: 100,
+//     sayHello: function() {
+//         console.log('Hello!');
+//     }
+
+// };
+
+// const john = Object.create(solder);
+
+// console.log(john.armor);
+// john.sayHello();
+
+// const john = {
+//     health: 100,
+// };
+
+// john.__proto__ = solder;
+
+// Object.setPrototypeOf(john, solder);
+
+// console.log(john);
+// john.sayHello();
+
+// ////////////////////////////Динамическая типизация/////////////////////////////
+// console.log(String(1));
+
+// console.log(typeof(5 + " "));
+
+// const num = 5;
+
+// console.log('https://vk.com/catalog/' + num);
+
+// const fontSize = 26 + 'px';
+
+// console.log(typeof(Number('4')));
+
+// console.log(typeof(parseInt('15px', 10)));
+
+// let answer = +prompt('Hello', '');
+
+// // 0, '', null, undefined, NaN;
+
+// let switcher  = null;
+
+// if (switcher) {
+//     console.log('working...');
+// }
+
+// switcher = 1;
+
+// if (switcher) {
+//     console.log('working...');
+// }
+
+// console.log(typeof(Boolean('4')));
+
+// console.log(typeof(!!'s2323213213'));
+
+// let number = 5;debugger
+
+// function lonNumber() {
+//     console.log(number);debugger
+// }
+
+// number = 6;
+
+// lonNumber();debugger
+
+// number = 8;
+
+// lonNumber();debugger
+
+function createCounter() {
+  let counter = 0;
+
+  const myFunction = function () {debugger
+    counter += 1;debugger
+    return counter;debugger
+  };
+
+  return myFunction;
+}
+debugger
+const increment = createCounter();
+const c1 = increment();debugger
+const c2 = increment();debugger
+const c3 = increment();debugger
+
+console.log(c1, c2, c3);
+
+
+
+
+
